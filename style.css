@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.head{
+    background-image: url('./p9.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-color: gray;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head::after{
+    position: absolute;
+    content: "";
+    width: 103%;
+    height: 71px;
+    transform: rotate(
+-3deg) translateY(249px);
+    background:white
+}
+.heading{
+    margin-top: 81px;
+    font-size: x-large;
+    border-bottom: 1px dotted black;
+}
+.para{
+    color: white;
+}
+/* section2 start from here */
+head2{
+padding: 75px;
+}
+.para2{
+    margin-top: 55px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.line{
+margin: 25px;
+}
+.img{
+    padding: 20px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}.
+/* section three start from here */
+.row{
+    border-right:  lightslategray 10px solid ;
+    margin-right: 40px;
+    display: flex;
+
+}
+
+.rowing{
+    max-width: 60%;
+    margin-left: 200px;
+display: flex;
+flex-direction: column;
+
+}
+.contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  margin: 20px 0;
+  border-bottom: 1px dotted gray;
+}
+.contain .col-1 {
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 2px solid gray;
+}
+.contain .col-2 {
+    width: 60%;
+    color: gray;
+    font-size: 12px;
+}
+.para5{
+margin-left: 5rem;
+line-height: 50px;
+
+}
+.images{
+    display: flex;
+    justify-content: center;
+    
+}
+.images-section{
+    padding: 90px 20px;
+    text-align: center;
+    background-color: gainsboro;
+    
+}
+.images-section h2{
+    padding-bottom: 120px;
+}
+.images {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.images img{
+    width: 530px;
+    height: 300px;
+    margin: 20px 0;
+    transform: rotate(-20deg);
+    box-shadow: 0px 0px 47px 0px #000;
+}
+.images .last-img {
+    margin-right: 350px;
+}
+
+.brand-section {
+    min-width: 100%;
+    height: 60vh;
+    background-color: #968279;
+}
+/* section five styles from here */
+.brand-section .brand-div {
+     background-image: url('./p9.jpg');
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    box-shadow: 0px 10px 20px -6px #000;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.brand-section .brand-div{
+    background-image: url('p9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-list ul{
+    display: flex;
+    list-style: none;
+    padding: 40px;
+    flex-direction: row;
+}
+ul li{
+    margin: 0 30px;
+}
+.old-head{
+ margin: 90px 0px;
+ font-size: 16px;
+ font-weight: 300;
+}
+.start-old{
+    color: white;
+
+}
+/* responsibility from here */
+@media(max-width:1000px) {
+    .heading{
+        margin-top: 70px;
+        font-size: large; 
+    }
+    }
+    @media(max-width:700px){
+        .head::after{ 
+            width: 80%;
+            height: 60px;
+    }
+    .line{
+        margin: 18px
+    }
+    }
+    @media(max-width:763px){
+
+    .head2{
+        padding: 75px;
+
+        }
+        .para2{
+            margin-top: 40px;
+            font-weight: 300;
+            line-height: 16px;
+        }
+        }
+        .img{
+            padding: 10px;
+            margin: 10px;
+        }
+        media(max-width:7px){
